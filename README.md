@@ -28,7 +28,7 @@ The script requires the path to the video file as a command line argument.
 Run the script as follows:
 
 ```bash
-python script.py /path/to/video.mp4
+python face_duration.py /path/to/video.mp4
 ```
 
 The script will output a JSON file named 'output.json'. This file contains a dictionary where the keys are the face descriptors (converted to lists) and the values are the total durations that each face was detected in the video.
