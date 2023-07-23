@@ -19,7 +19,11 @@ Additionally, the script requires two pretrained models from dlib:
 - `shape_predictor_68_face_landmarks.dat`
 - `dlib_face_recognition_resnet_model_v1.dat`
 
-These models can be downloaded from the dlib models repository: http://dlib.net/files/
+If you do not have the files above, then run:
+```bash
+pip install requests pyunpack patool
+python download_dlib.py
+```
 
 ## Usage
 
